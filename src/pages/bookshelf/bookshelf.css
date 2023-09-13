@@ -1,0 +1,28 @@
+.bookshelf{
+    padding: 3rem 0;
+}
+.bookshelf-content{
+    gap: 4rem;
+}
+.bookshelf-title{
+    margin: 1rem 0;
+}
+.bookshelf-img img{
+    max-width: 520px;
+}
+.bookshelf-text p{
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px){
+    .bookshelf-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bookshelf-title{
+        margin-top: 0;
+    }
+    .bookshelf-img img{
+        margin-left: 0;
+    }
+}
